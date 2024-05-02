@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
 	font-size: 36px;
-	color: var(--maincolor);
+	color: var(--secondcolor);
 }
 h3 {
 	font-size: 26px;
@@ -162,7 +162,7 @@ blockquote cite:before {
 }
 /* Links */
 a {
-	color: #4abcc5;
+	color: var(--secondcolor);
 	word-wrap: break-word;
 	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
@@ -255,13 +255,13 @@ a:before, a:after {
 	padding: 20px 0;
 }
 .headspace {
-	padding: 80px 0;
+	padding: 20px 0;
 }
 .pr-10 {
 	padding-right: 10px;
 }
 .colored {
-	color: var(--maincolor);
+	color: var(--secondcolor);
 }
 .bgcolored {
 	background-color: var(--maincolor);
@@ -571,7 +571,7 @@ z-index: -1;}
 	padding: 30px 0;
 }
 #contact .fa {
-	color: var(--maincolor);
+	color: var(--secondcolor);
 	margin-bottom: 10px;
 }
 #contact .btn {
