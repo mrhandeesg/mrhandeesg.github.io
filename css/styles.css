@@ -51,6 +51,9 @@ display: inline-block;
 .logo a img{
 background:transparent;
 }
+.logoimage {
+	height: 40px;
+}
 .navbar {
 	background-color: #FFFFFF;
 	border-color: rgba(127, 90, 5, 1);
@@ -255,7 +258,7 @@ a:before, a:after {
 	padding: 20px 0;
 }
 .headspace {
-	padding: 20px 0;
+	padding: 60px 0;
 }
 .pr-10 {
 	padding-right: 10px;
